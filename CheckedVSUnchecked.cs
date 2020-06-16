@@ -7,7 +7,6 @@ namespace CheckedVSUnchecked
 	public class OverflowTest
 	{
 		static int maxInt = int.MaxValue;
-		int num1, num2;
 
 		public static int CheckedMethod()               // Exception occurs because num1 is out of int range.
 		{
